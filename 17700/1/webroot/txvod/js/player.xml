@@ -24,5 +24,9 @@
 		<pm_advmarquee>1,2,130,-23,130,17,0,0x000000,50,0,20,1,15,2000</pm_advmarquee>
 		<advmarquee></advmarquee>
 		<myweb>7daa475e39ceba0deaad5dbba4810918,网络同步电视播放器,http://tv.lhkjw.com,Version:3.9</myweb>
+		<cpt>select_a.swf,2,2,-200,-30,2,1</cpt>
+		<cpt>select_b.swf,1,1,-180,-100,3,0</cpt>
+		<cpt>Proportion.swf,2,2,-240,-36,2</cpt>
+		<cpt>downloadspeeds.swf,2,2,-370,-28,2</cpt>
 	</style>
 </ckplayer>
