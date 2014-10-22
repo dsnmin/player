@@ -18,7 +18,7 @@ var url=window.location.href;
 var arr =url.split("#");//alert(url);alert(arr[1]);alert(arr[2]);
 	var flashvars={f:arr[1],a:"",s:arr[2],c:"0",e:"0",p:"1",h:"1",};
 		var params={bgcolor:"#FFF",allowFullScreen:true,allowScriptAccess:"always"};
-		CKobject.embedSWF("player.swf","a1","ckplayer_a1","100%","100%",flashvars,params);
+		CKobject.embedSWF("player.swf","player","ckplayer_a1","100%","100%",flashvars,params);
 	var video=[arr[3]+"->video/mp4"];
 	var support=["iPad","iPhone","ios","android+false","msie10+false"];
 	CKobject.embedHTML5("video","ckplayer_a1","100%","100%",video,flashvars,support);
